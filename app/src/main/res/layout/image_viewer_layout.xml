@@ -9,9 +9,18 @@
 
     <com.google.vr.sdk.widgets.pano.VrPanoramaView
         android:id="@+id/vrPanoramaView"
+        android:transitionName="IMAGEN"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="250dp">
 
     </com.google.vr.sdk.widgets.pano.VrPanoramaView>
+
+    <Button
+        android:id="@+id/btnRegresar"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:textSize="30sp" />
 
 </LinearLayout>

@@ -5,6 +5,7 @@ import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.Button;
 
 import com.barajasoft.uabcmovil.R;
 import com.google.vr.sdk.widgets.pano.VrPanoramaView;
@@ -19,6 +20,10 @@ public class ImageActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.image_viewer_layout);
+        Button btnRegresar = findViewById(R.id.btnRegresar);
+        btnRegresar.setOnClickListener(e->{
+            finish();
+        });
         panoramaView = findViewById(R.id.vrPanoramaView);
         loadImg();
     }
@@ -29,7 +34,7 @@ public class ImageActivity extends AppCompatActivity {
 
         AssetManager assetsManager = getAssets();
         try{
-            inputStream = assetsManager.open("sunset_at_pier.jpg");
+            inputStream = assetsManager.open("image_converted.jpg");
             options.inputType = VrPanoramaView.Options.TYPE_MONO;
             panoramaView.loadImageFromBitmap(BitmapFactory.decodeStream(inputStream),options);
             inputStream.close();

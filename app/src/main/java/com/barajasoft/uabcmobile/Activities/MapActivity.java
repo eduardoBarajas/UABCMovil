@@ -10,6 +10,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
+import com.barajasoft.uabcmobile.Dialogs.LocationExpandedDlg;
 import com.barajasoft.uabcmovil.Helpers.EdificiosLoader;
 import com.barajasoft.uabcmovil.R;
 
@@ -146,7 +147,8 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         mapboxMap.setOnMarkerClickListener(new MapboxMap.OnMarkerClickListener() {
             @Override
             public boolean onMarkerClick(@NonNull Marker marker) {
-                Toast.makeText(getApplicationContext(),marker.getTitle(),Toast.LENGTH_LONG).show();
+                LocationExpandedDlg dlg = new LocationExpandedDlg(MapActivity.this,marker.getTitle());
+                dlg.show();
                 return true;
             }
         });
