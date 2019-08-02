@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="imagenes_preview">
+        <item>@drawable/e40</item> <!--E40-->
+        <item>@drawable/no_disponible</item> <!--E37-->
+        <item>@drawable/e33</item>           <!--E33-->
+        <item>@drawable/computacion_prev</item> <!--E34-->
+        <item>@drawable/e36</item>           <!--E36-->
+        <item>@drawable/e35</item>           <!--E35-->
+        <item>@drawable/vicerrectoria</item> <!--E31-->
+        <item>@drawable/e45</item>           <!--E45-->
+        <item>@drawable/biblioteca_prev</item> <!--E32-->
+        <item>@drawable/no_disponible</item> <!--E29-->
+        <item>@drawable/e1</item> <!--E1-->
+        <item>@drawable/e51</item>           <!--E51-->
+        <item>@drawable/no_disponible</item> <!--E2-->
+        <item>@drawable/no_disponible</item> <!--E3-->
+        <item>@drawable/no_disponible</item> <!--E57-->
+        <item>@drawable/no_disponible</item> <!--E4-->
+        <item>@drawable/no_disponible</item> <!--E5-->
+        <item>@drawable/no_disponible</item> <!--E7-->
+        <item>@drawable/no_disponible</item> <!--E6-->
+        <item>@drawable/no_disponible</item> <!--E8-->
+
+        <item>@drawable/no_disponible</item> <!--E9-->
+        <item>@drawable/no_disponible</item> <!--E10-->
+        <item>@drawable/no_disponible</item> <!--E11-->
+        <item>@drawable/no_disponible</item> <!--E14-->
+        <item>@drawable/no_disponible</item> <!--E15-->
+        <item>@drawable/no_disponible</item> <!--E12-->
+        <item>@drawable/no_disponible</item> <!--E16-->
+        <item>@drawable/no_disponible</item> <!--E17-->
+        <item>@drawable/no_disponible</item> <!--E19-->
+        <item>@drawable/no_disponible</item> <!--E18-->
+        <item>@drawable/no_disponible</item> <!--E21-->
+        <item>@drawable/no_disponible</item> <!--E20-->
+        <item>@drawable/no_disponible</item> <!--E22-->
+        <item>@drawable/no_disponible</item> <!--E25-->
+        <item>@drawable/no_disponible</item> <!--E48-->
+
+
+        <item>@drawable/no_disponible</item> <!--E26-->
+        <item>@drawable/no_disponible</item> <!--E25-->
+        <item>@drawable/tortugas</item> <!--TORTUGAS-->
+        <item>@drawable/malecon_prev</item> <!--MALECON-->
+        <item>@drawable/canchas_basketball</item> <!--CANCHAS BASQUETBALL-->
+        <item>@drawable/canchas_futbol</item> <!--CANCHAS FUTBOL-->
+        <item>@drawable/e55</item>            <!--E55-->
+    </array>
+
+    <string-array name="imagenes_pano">
+        <item>pano_e40.jpg</item>             <!--E40-->
+        <item>no_disponible.png</item>        <!--E37-->
+        <item>pano_e33.jpg</item>             <!--E33-->
+        <item>computacion_pano.jpg</item>        <!--E34-->
+        <item>pano_e36.jpg</item>             <!--E36-->
+        <item>pano_e35.jpg</item>             <!--E35-->
+        <item>pano_e31.jpg</item>             <!--E31-->
+        <item>pano_e45.jpg</item>             <!--E45-->
+        <item>biblioteca_pano.jpg</item>        <!--E32-->
+        <item>no_disponible.png</item>        <!--E29-->
+        <item>e1_pano.jpg</item>        <!--E1-->
+        <item>pano_e51.jpg</item>        <!--E51-->
+        <item>no_disponible.png</item>        <!--E2-->
+        <item>no_disponible.png</item>        <!--E3-->
+        <item>no_disponible.png</item>        <!--E57-->
+        <item>no_disponible.png</item>        <!--E4-->
+        <item>no_disponible.png</item>        <!--E5-->
+        <item>no_disponible.png</item>        <!--E7-->
+        <item>no_disponible.png</item>        <!--E6-->
+        <item>no_disponible.png</item>        <!--E8-->
+
+        <item>no_disponible.png</item>        <!--E9-->
+        <item>no_disponible.png</item>        <!--E10-->
+        <item>no_disponible.png</item>        <!--E11-->
+        <item>no_disponible.png</item>        <!--E14-->
+        <item>no_disponible.png</item>        <!--E15-->
+        <item>no_disponible.png</item>        <!--E12-->
+        <item>no_disponible.png</item>        <!--E16-->
+        <item>no_disponible.png</item>        <!--E17-->
+        <item>no_disponible.png</item>        <!--E19-->
+        <item>no_disponible.png</item>        <!--E18-->
+        <item>no_disponible.png</item>        <!--E21-->
+        <item>no_disponible.png</item>        <!--E20-->
+        <item>no_disponible.png</item>        <!--E22-->
+        <item>no_disponible.png</item>        <!--E25-->
+        <item>no_disponible.png</item>        <!--E48-->
+
+
+        <item>no_disponible.png</item>        <!--E26-->
+        <item>no_disponible.png</item>        <!--E25-->
+        <item>pano_tortugas.jpg</item>        <!--TORTUGAS-->
+        <item>malecon_pano.jpg</item>        <!--MALECON-->
+        <item>no_disponible.png</item>        <!--BASKETBALL-->
+        <item>pano_canchas_futbol.jpg</item>  <!--FUTBOL-->
+        <item>pano_e55.jpg</item>             <!--E55-->
+    </string-array>
+</resources>

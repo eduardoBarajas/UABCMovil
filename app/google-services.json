@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "740444832260",
+    "firebase_url": "https://uabcmovil-3db57.firebaseio.com",
+    "project_id": "uabcmovil-3db57",
+    "storage_bucket": "uabcmovil-3db57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740444832260:android:9e56d9f73795ead9",
+        "android_client_info": {
+          "package_name": "com.uabcmovil.uabcmovil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740444832260-p2vebjvhtfhbs8ec9nth3gt4t55ul5kg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uabcmovil.uabcmovil",
+            "certificate_hash": "18c2c877485f840eba37441fdae2ff649f4ce221"
+          }
+        },
+        {
+          "client_id": "740444832260-v5kgeqrk7c5ahqru8juqjaua038fh785.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwvrvuuoRrCXRg8aoJT49TTvSxr8u1fas"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740444832260-v5kgeqrk7c5ahqru8juqjaua038fh785.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

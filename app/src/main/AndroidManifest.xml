@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uabcmovil.uabcmovil">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name='android.permission.INTERNET' />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.uabcmovil.uabcmovil.Activities.LauncherActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.uabcmovil.uabcmovil.Activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.LOGIN"/>
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.uabcmovil.uabcmovil.Activities.MapActivity"
+            android:label="Mapa UABC Sauzal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAP_SCREEN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.uabcmovil.uabcmovil.Activities.ImageActivity"
+            android:label="Imagen Panoramica">
+            <intent-filter>
+                <action android:name="android.intent.action.IMAGE_VIEWER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.uabcmovil.uabcmovil.Activities.NewsFeedActivity"
+            android:label="Noticias">
+            <intent-filter>
+                <action android:name="android.intent.action.NEWS_FEED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.uabcmovil.uabcmovil.Activities.NewFeedActivity"
+            android:label="Nueva Noticia">
+            <intent-filter>
+                <action android:name="android.intent.action.ADD_FEED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.uabcmovil.uabcmovil.Activities.ProfileActivity"
+            android:label="Mi Perfil">
+            <intent-filter>
+                <action android:name="android.intent.action.MI_PERFIL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.uabcmovil.uabcmovil.Activities.NewsExpandedActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.NOTICIA_EXPANDIDA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.uabcmovil.uabcmovil.Activities.HorarioActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MI_HORARIO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.uabcmovil.uabcmovil.Activities.AboutActivity"
+            android:label="Acerca De Nosotros">
+            <intent-filter>
+                <action android:name="android.intent.action.SOBRE_NOSOTROS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.SolicitudesActivity"
+            android:label="Solicitudes">
+            <intent-filter>
+                <action android:name="android.intent.action.SOLICITUDES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.IncidenciasActivity"
+            android:label="Incidencias">
+            <intent-filter>
+                <action android:name="android.intent.action.INCIDENCIAS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.NewSolicitudActivity"
+            android:label="Nueva Solicitud"
+            android:windowSoftInputMode="stateVisible|adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.NUEVA_SOLICITUD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.ExpandSolicitudActivity"
+            android:label="Solicitud">
+            <intent-filter>
+                <action android:name="android.intent.action.EXPANDIR_SOLICITUD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.NewIncidenciaActivity"
+            android:label="Nueva Incidencia"
+            android:windowSoftInputMode="stateVisible|adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.NUEVA_INCIDENCIA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.ExpandIncidenciaActivity"
+            android:label="Incidencia"
+            android:windowSoftInputMode="stateVisible|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.INCIDENCIA_EXPANDIDA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.NoRolAsignadoActivity"
+            android:label="Solicitud De Rol">
+            <intent-filter>
+                <action android:name="android.intent.action.NO_ROL_ASIGNADO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.VerificarComentarioActivity"
+            android:label="Verficiacion De Comentarios">
+            <intent-filter>
+                <action android:name="android.intent.action.VERIFICAR_COMENTARIO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.ControlDeUsuariosActivity"
+            android:label="Control De Usuarios"
+            android:windowSoftInputMode="stateVisible|adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.CONTROL_DE_USUARIOS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.CalificarProfesorActivity"
+            android:label="Selecciona al profesor">
+            <intent-filter>
+                <action android:name="android.intent.action.CALIFICACION_PROFESORES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.ExpandCalificacionProfesorActivity"
+            android:label="Califica a tu profesor">
+            <intent-filter>
+                <action android:name="android.intent.action.EXPANDED_CALIFICACION_PROFESORES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Activities.FeedBackActivity"
+            android:label="Califica la app">
+            <intent-filter>
+                <action android:name="android.intent.action.CALIFICACION_APP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".BroadcastReceivers.Notificaciones">
+            <intent-filter>
+                <action android:name="android.intent.action.NUEVA_NOTIFICACION"/>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

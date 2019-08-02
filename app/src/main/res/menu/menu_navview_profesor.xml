@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inicio"
+            android:icon="@drawable/home"
+            android:title="Inicio(Noticias)"/>
+        <item
+            android:id="@+id/solicitudes"
+            android:icon="@drawable/calendar_clock"
+            android:title="Solicitudes"/>
+        <item
+            android:id="@+id/incidencias"
+            android:icon="@drawable/clipboard_check"
+            android:title="Incidencias"/>
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="Mas Opciones">
+        <menu>
+            <item
+                android:id="@+id/cerrar_sesion"
+                android:icon="@drawable/account_off"
+                android:title="Cerrar Sesion"/>
+            <item
+                android:id="@+id/calificanos"
+                android:icon="@drawable/ic_star"
+                android:title="Calificanos"/>
+            <item
+                android:id="@+id/acerca_nosotros"
+                android:icon="@drawable/information"
+                android:title="Acerca UABCMovil"/>
+        </menu>
+    </item>
+</menu>
